@@ -8,5 +8,5 @@ It consolidates frequently used system libraries, multimedia toolchains, hardwar
 _MiroX 是 MincoX 开源生态的通用基础依赖层，整合常用系统库、多媒体工具链、硬件加速组件及底层模块，为上层框架提供统一、稳定、免编译的运行支撑环境。_
 
 # 💬 Contact | 联系方式
-GitHub: https://github.com/mincox
-Email: mincox168@outlook.com
+**GitHub**: https://github.com/mincox  
+**Email**: mincox168@outlook.com
