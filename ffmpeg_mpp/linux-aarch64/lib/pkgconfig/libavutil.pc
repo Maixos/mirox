@@ -1,0 +1,14 @@
+prefix=/usr/local/x3rdparty/ffmpeg_mpp/linux-aarch64
+exec_prefix=${prefix}
+libdir=/usr/local/x3rdparty/ffmpeg_mpp/linux-aarch64/lib
+includedir=/usr/local/x3rdparty/ffmpeg_mpp/linux-aarch64/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.29.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -ldrm -lrockchip_mpp -latomic -lX11
+Cflags: -I${includedir}

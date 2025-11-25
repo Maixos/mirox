@@ -1,0 +1,14 @@
+prefix=/usr/local/x3rdparty/ffmpeg_mpp/linux-aarch64
+exec_prefix=${prefix}
+libdir=/usr/local/x3rdparty/ffmpeg_mpp/linux-aarch64/lib
+includedir=/usr/local/x3rdparty/ffmpeg_mpp/linux-aarch64/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.31.102
+Requires: 
+Requires.private: libswresample >= 4.12.100, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -pthread -lm -latomic -lrga -llzma -lrockchip_mpp -lz
+Cflags: -I${includedir}
